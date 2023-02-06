@@ -1,32 +1,32 @@
 @font-face {
 	font-family: "Roboto";
-	src: url("fonts/Roboto-Bold.eot");
-	src: url("fonts/Roboto-Bold.eot?#iefix") format("embedded-opentype"),
-		url("fonts/Roboto-Bold.woff2") format("woff2"),
-		url("fonts/Roboto-Bold.woff") format("woff"),
-		url("fonts/Roboto-Bold.ttf") format("truetype");
+	src: url("../fonts/Roboto-Bold.eot");
+	src: url("../fonts/Roboto-Bold.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/Roboto-Bold.woff2") format("woff2"),
+		url("../fonts/Roboto-Bold.woff") format("woff"),
+		url("../fonts/Roboto-Bold.ttf") format("truetype");
 	font-weight: bold;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: "Roboto";
-	src: url("fonts/Roboto-Light.eot");
-	src: url("fonts/Roboto-Light.eot?#iefix") format("embedded-opentype"),
-		url("fonts/Roboto-Light.woff2") format("woff2"),
-		url("fonts/Roboto-Light.woff") format("woff"),
-		url("fonts/Roboto-Light.ttf") format("truetype");
+	src: url("../fonts/Roboto-Light.eot");
+	src: url("../fonts/Roboto-Light.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/Roboto-Light.woff2") format("woff2"),
+		url("../fonts/Roboto-Light.woff") format("woff"),
+		url("../fonts/Roboto-Light.ttf") format("truetype");
 	font-weight: 300;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: "Roboto";
-	src: url("fonts/Roboto-Medium.eot");
-	src: url("fonts/Roboto-Medium.eot?#iefix") format("embedded-opentype"),
-		url("fonts/Roboto-Medium.woff2") format("woff2"),
-		url("fonts/Roboto-Medium.woff") format("woff"),
-		url("fonts/Roboto-Medium.ttf") format("truetype");
+	src: url("../fonts/Roboto-Medium.eot");
+	src: url("../fonts/Roboto-Medium.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/Roboto-Medium.woff2") format("woff2"),
+		url("../fonts/Roboto-Medium.woff") format("woff"),
+		url("../fonts/Roboto-Medium.ttf") format("truetype");
 	font-weight: 500;
 	font-style: normal;
 }
@@ -39,7 +39,7 @@
 	--orange: #f2994a;
 	--crimson: #eb5757;
 	--purple: #9b51e0;
-	--blue: #2f80ed;
+	--blue: #1385ff;
 	--green: #27ae60;
 	--dark: #4f4f4f;
 	--light: #eeeeee;
@@ -103,11 +103,12 @@
 	flex-direction: column;
 	align-items: flex-start;
 	gap: 6px;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 
 .card-links__item {
-	color: var(--light);
+	color: var(--blue);
+	font-size: 14px;
 	font-weight: 500;
 	text-decoration: none;
 }
