@@ -145,20 +145,29 @@
 	font-size: 12px;
 	font-weight: 500;
 }
+.card-list__item_theme_router,
 .card-list__item_theme_htmlcss {
 	background-color: var(--orange);
 }
+.card-list__item_theme_swiper,
 .card-list__item_theme_react {
 	background-color: var(--crimson);
 }
+.card-list__item_theme_stylus,
 .card-list__item_theme_redux {
 	background-color: var(--purple);
 }
+.card-list__item_theme_js,
 .card-list__item_theme_typescript {
 	background-color: var(--blue);
 }
-.card-list__item_theme_scss {
+.card-list__item_theme_scss,
+.card-list__item_theme_animation {
 	background-color: var(--green);
+}
+
+.card-list__item_theme_sass {
+	background-color: var(--dark);
 }
 .card-list__item_theme_mockapi {
 	background-color: var(--dark);
