@@ -34,7 +34,8 @@
 :root {
 	--color: #fff;
 	--background-1: #141414;
-	--background-2: #333;
+	--background-2: #181818;
+	--border-1: #fff;
 }
 
 *,
@@ -55,12 +56,26 @@
 
 .main {
 	overflow: auto;
+	max-height: calc(100vh - 44px);
 	flex-grow: 1;
-	background-color: red;
+	background-color: var(--background-2);
+}
+
+.content {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+	gap: 20px;
+	padding: 70px 100px;
+}
+
+.card {
+	padding: 30px;
+	border: 2px solid var(--border-1);
+	border-radius: 15px;
 }
 
 .footer {
-	background: var(--background-1);
+	background-color: var(--background-1);
 	padding: 10px;
 	text-align: center;
 	font-size: 20px;
