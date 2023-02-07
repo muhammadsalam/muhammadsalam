@@ -79,6 +79,8 @@
 	padding: 30px;
 	border: 2px solid var(--border-1);
 	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
 }
 
 .card:nth-child(5n + 3) {
@@ -96,6 +98,9 @@
 	color: var(--light);
 	font-weight: 300;
 	margin-bottom: 20px;
+	line-height: 1em;
+	height: 2em;
+	overflow: hidden;
 }
 
 .card-links {
